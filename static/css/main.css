@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,500);
 .clearfix {
   *zoom: 1;
 }
@@ -32,6 +32,7 @@ body {
   background: #f5f5f5;
   font-family: 'Roboto', sans-serif;
  /* font-weight: 300; */
+
 }
 h1,
 h2,
@@ -40,7 +41,7 @@ h4,
 h5,
 h6 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 a {
   color: #34495e;
