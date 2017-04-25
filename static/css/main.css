@@ -1146,3 +1146,7 @@ ul.faq li > div h3 {
 ul.breadcrumb > li > a:hover, ul.breadcrumb > li > a:focus  {
     color: #d9534f !important;
 }
+
+.thalespic {height: 200% !important;}
+
+.navbar {min-height: 78px;}
