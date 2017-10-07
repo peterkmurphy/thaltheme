@@ -1150,3 +1150,19 @@ ul.breadcrumb > li > a:hover, ul.breadcrumb > li > a:focus  {
 .thalespic {height: 200% !important;}
 
 .navbar {min-height: 78px;}
+
+.toc {border-width: thin;
+border-color: black;
+border-style: solid;
+border-radius: 5px;
+display: inline-block;
+padding: 20px;
+background-color: rgb(52, 73, 94);
+font-size: 16px;
+}
+
+.toc ul li a {color: rgb(189, 195, 199);
+}
+
+.toc ul li a:hover {color: #d9534f !important;
+}
