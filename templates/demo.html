@@ -2,53 +2,19 @@
 {% load i18n %}
 
 
-{% block meta_title %}{% trans "Home" %}{% endblock %}
-{% block title %}{% trans "Home" %}{% endblock %}
+{% block meta_title %}{% trans "Demo" %}{% endblock %}
+{% block title %}{% trans "Demo" %}{% endblock %}
 
 {% block breadcrumb_menu %}
-<li class="active">{% trans "Home" %}</li>
+<li class="active">{% trans "Demo" %}</li>
 {% endblock %}
 
 {% block main %}
 {% blocktrans %}
-<h2>Congratulations!</h2>
-<p>
-    Welcome to your new Mezzanine powered website.
-    Here are some quick links to get you started:
-</p>
-<ul>
-    <li><a href="/admin/">Log in to the admin interface</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/content-architecture.html">Creating custom page types</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html#templates">Modifying HTML templates</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html#why-isn-t-the-homepage-a-page-object-i-can-edit-via-the-admin">Changing this homepage</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html">Other frequently asked questions</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/configuration.html#default-settings">Full list of settings</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/deployment.html">Deploying to a production server</a></li>
-</ul>
+<h2 class="page-header" id="css">Theme CSS!</h2>
 <div class="row">
   <div class="col-md-12">
     <p><strong>.row .col-md-12</strong></p>
-
-<blockquote>
-<p>Bootstrap TLDR</p>
-
-<footer>
-<span class="glyphicon glyphicon-heart"></span>
-<a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> v3.3.0
-</footer>
-<footer>
-<span class="glyphicon glyphicon-star"></span>
-All Bootstrap's components in one page
-</footer>
-<footer>
-<span class="glyphicon glyphicon-flash"></span>
-Briefly presented with their own CSS selectors
-</footer>
-</blockquote>
-
-
-<h1 class="page-header" id="css">CSS</h1>
-
 <h2 id="typography">Typography</h2>
 <!-- Headings -->
 <div class="media js-html-inspector" data-replace-target="> div">

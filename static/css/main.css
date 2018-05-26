@@ -1190,3 +1190,5 @@ footer {
     Book Antiqua, Georgia, serif;
     color: #394fa2;
 }
+
+ul.breadcrumb > li {color: rgba(255, 255, 255, 0.7);}

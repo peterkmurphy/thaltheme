@@ -161,20 +161,28 @@ crossorigin="anonymous">
 <!--{% page_menu "pages/menus/footer.html" %}-->
 
 <div class="row">
-
-    <p class="site-info text-center"><strong>Registered:</strong> Suite 309, 56 Gloucester Road, Kensington, London SW7 4UB •
+    <p class="text-center"><a href="https://twitter.com/thalesians"><img src="/static/img/twitter.png"
+        alt="Twitter" class="thalespic">
+    </a><a href="https://www.meetup.com/thalesians/"><img src="/static/img/meetup.png"
+        alt="Meetup" class="thalespic">
+    </a><a href="https://github.com/thalesians"><img src="/static/img/github.png"
+        alt="GitHub" class="thalespic">
+    </a><a href="https://www.youtube.com/user/thalesians"><img src="/static/img/youtube.png"
+        alt="YouTube" class="thalespic">
+    </a> </p>
+    <p class="text-center"><strong>Registered:</strong> Suite 309, 56 Gloucester Road, Kensington, London SW7 4UB •
         <strong>Trading:</strong> Level 39, One Canada Square, Canary Wharf, London E14 5AB</p>
-    <p class="site-info text-center"><strong>Tel.:</strong> +44 (0)20 796 57587
+    <p class="text-center"><strong>Tel.:</strong> +44 (0)20 796 57587
         • <strong>Email:</strong> <a href="mailto:info@thalesians.com">info@thalesians.com</a>
         • <strong>Web:</strong> <a href="http://www.thalesians.com">www.thalesians.com</a>
         • <strong>Twitter:</strong> <a href="https://twitter.com/thalesians">@thalesians</a></p>
-    <p class="site-info text-center"><strong>VAT Reg. Number:</strong> 228 5299 80
+    <p class="text-center"><strong>VAT Reg. Number:</strong> 228 5299 80
         • <strong>Company Number:</strong> 06843387 (Registered in England & Wales)
         • <strong>Incorporated:</strong> 11th March, 2009</p>
 
 
 
-<p class="site-info text-center">
+<p class="text-center">
     Website designed and implemented by <a href="https://www.pkmurphy.com.au/">Peter Murphy</a>
     <span class="separator">|</span>
     {% trans "Powered by" %}
@@ -186,7 +194,8 @@ crossorigin="anonymous">
     <span class="separator">|</span>
     {% trans "Theme based on work by" %} <a href="https://github.com/thecodinghouse/">CodingHouse</a>
     {% trans "and" %}
-    <a href="http://shapebootstrap.net">Shapebootstrap</a>.
+    <a href="http://shapebootstrap.net">Shapebootstrap</a> with icons from
+    <a href="http://www.socicon.com/generator.php">SocIcon</a>.
     {% ifinstalled mezzanine.mobile %}
     <span class="separator">|</span>
     <a href="{% url "set_device" "mobile" %}?next={{ request.path }}">{% trans "View Mobile Site" %}</a>
