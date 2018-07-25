@@ -1192,3 +1192,13 @@ footer {
 }
 
 ul.breadcrumb > li {color: rgba(255, 255, 255, 0.7);}
+
+.indexpage {
+   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+   font-size: 80px;
+   color: #394fa2;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
