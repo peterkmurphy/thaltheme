@@ -650,7 +650,7 @@ body > section {
   border: 0;
 }
 ul.breadcrumb {
-  margin: 20px 0 0;
+  margin: 5px 0 0; /* PKM */
   background: transparent;
 }
 ul.breadcrumb > li {
@@ -1193,12 +1193,37 @@ footer {
 
 ul.breadcrumb > li {color: rgba(255, 255, 255, 0.7);}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-weight: 700;
+    color: #394fa2;
+}
+
 .indexpage {
    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
    font-size: 80px;
    color: #394fa2;
+   font-weight: 400;
 }
 
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+
+.panel-primary {
+    border-color: #394fa2;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #394fa2;
+    border-color: #394fa2;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+
+.panel-primary > .panel-heading a {color: #fff;}
+.panel-primary > .panel-heading a:hover {color: #d9534f;}

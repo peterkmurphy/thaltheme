@@ -118,7 +118,7 @@ crossorigin="anonymous">
 {% endif %}
 {% endnevercache %}
 
-<h1>{% block title %}{% endblock %}</h1>
+<h1 class="indexpage">{%if page.title == 'Home' %}The Thalesians{% else %}{% block title %}{% endblock %}{% endif %}</h1>
 
 <ul class="breadcrumb">
 {% spaceless %}
